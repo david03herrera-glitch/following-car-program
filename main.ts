@@ -23,6 +23,6 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 let item = ""
-radio.setGroup(2)
+radio.setGroup(10)
 radio.setTransmitPower(7)
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.House)
